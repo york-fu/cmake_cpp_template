@@ -10,7 +10,7 @@ include_directories(./include)
 aux_source_directory(./src SRCS)
 
 add_library(${PROJECT_NAME} ${SRCS})
-target_link_directories(${PROJECT_NAME} PUBLIC ./include)
+set_target_properties(${PROJECT_NAME} PROPERTIES PUBLIC_HEADER ./include)
 
 if(EXAMPLE)
   add_subdirectory(example)
