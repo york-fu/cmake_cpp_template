@@ -1,12 +1,10 @@
-# cmake cpp template
+# Cmake cpp template
 
-## run
+## Build
 
 ```
 mkdir build
 cd build
 cmake ..
 make -j`nporc`
-
-./example/example
 ```
