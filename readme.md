@@ -6,5 +6,5 @@
 mkdir build
 cd build
 cmake ..
-make -j`nporc`
+make -j`nproc`
 ```
